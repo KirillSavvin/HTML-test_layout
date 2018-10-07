@@ -1,0 +1,97 @@
+body {
+  background-color: #17161e;
+  font-family: "Calibri";
+}
+
+.container {
+  position: absolute;
+  top: 15.5%;
+  left: 18.20%;
+}
+
+.menu {
+  position: relative;
+  width: 971px;
+  height: 675px;
+
+}
+
+.menu article {
+  margin: 0;
+  background-color: #fff;
+  width: 699px;
+  height: 538px;
+  position: absolute;
+  right: 0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 50px 50px 0 70px;
+  display: none;
+}
+
+.tabs {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 355px;
+}
+
+.tabs li {
+  list-style: none;
+  background-color: #471a28;
+  color: #fff;
+  display: block;
+  width: 340px;
+  height: 76px;
+  float: left;
+  margin-bottom: 1px;
+  border-radius: 10px 0 0 10px;
+  box-sizing: border-box;
+  padding: 21px 155px 10px 40px;
+  font-size: 17px;
+  line-height: 1;
+}
+
+.menu article:first-of-type {
+  display: block;
+}
+
+.tabs li:last-child {
+  margin-bottom: 0;
+}
+
+.when-teaching {
+  background-color: #24a27a;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.menu article h1 {
+  margin: 0;
+  margin-top: 20px;
+  color: #333333;
+  font-size: 30px;
+}
+
+.menu article p {
+  margin: 0;
+  margin-top: 20px;
+  max-width: 465px;
+  font-size: 17px;
+}
+
+.tabs a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.tabs a:hover li{
+  background-color: #b6223e;
+}
+
+.new-style {
+  background-color: rgb(100,46,60) !important;
+}
